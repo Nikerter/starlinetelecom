@@ -1,0 +1,358 @@
+
+
+body {
+    
+    background: url(../images/BG2.gif) no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 175px;
+    height: 300%;
+}
+
+.flmn{
+    float: right;
+}
+
+.padlink{
+    padding-top: 5px;
+}
+
+.sect-pad{
+    padding-top: 50px;    
+}
+
+.menu{
+    height: 80px;
+    background: #f1f4f4;
+}
+
+.mnfxd{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    padding: 2px;    
+}
+
+.BG{
+    padding-top: 5%;
+}
+
+.link-menu{
+    color: #048485;
+    font-size: 25px;
+}
+
+.link-menu:hover{
+    color: #1818a5;
+    text-decoration: underline;
+    background: red;
+}
+
+.tel{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    float: right;
+    margin-right: 20px;
+}
+
+.sect{    
+	width: 470px;
+	height: 66px;
+	background: #30BAA8;
+    float: left;
+}
+
+.sect2{
+	width: 0;
+	height: 0;
+	border-bottom: 66px solid #30BAA8; 
+	border-right: 100px solid transparent;
+    float: left;
+    position: absolute;
+    left: 485px;
+}
+
+
+.sector_img{
+    height: 65px;
+    width: 500px;
+}
+
+.bg_pdng{
+    padding: 45px;
+}
+
+.sector_text{
+    font-size: 30px;
+    color: black;
+    padding-left: 30%;
+    color: azure;
+    padding-top: 15px;
+}
+
+.PL{
+    padding-left: 8px;
+}
+
+.spc-prd{
+    margin-top: 20px;
+    height: 60px;
+    background: #9f2e2e;
+}
+
+.spc-prd-txt-lg{
+    font-size: 30px;
+    color: azure;
+    background: #9f2e2e;
+    border-radius: 0 20px 20px 0;
+}
+
+.spc-prd-txt{
+    font-size: 30px;
+    color: azure;
+    padding-top: 40px;
+}
+
+
+.spc-prd-div{
+    height: 125px;
+    background: #30BAA8;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.spc-prd-dv{
+    font-size: 20px;
+}
+
+.tbl{
+    background: #30BAA8;
+    font-size: 20px;
+    color: azure;
+}
+
+
+.connect{
+    position: relative;
+}
+
+
+.connect:hover{
+    background: #30BAA8;
+}
+
+.connect2{
+    font-size: 50px;
+    left: 40%;
+    position: absolute;
+    padding-top: 100px;
+}
+
+
+
+.frm-obr-svz{
+    height: 380px;
+    width: 300px;
+    background: #30BAA8;
+}
+
+.frm-txt{
+    font-size: 23px;
+    color: azure;
+    padding-left: 9px;
+}
+
+.frm-obr-svz-inpt{
+    width: 90%;
+}
+
+.frm-obr-svz-inpt-chk{
+    width: 39px;
+}
+
+.gl-txt{
+    font-size: 35px;
+    color: #30BAA8;
+}
+
+.perehod{            
+            height: 245px;
+            width: 245px;
+            border: #30BAA8 solid 15px;
+            border-radius: 150px;
+}
+
+.perehod-img{
+    padding-top: 40px;
+    
+}
+
+.perehod:hover{
+    background: #e6e6e6;
+    border: #9f2e2e solid 15px;
+}
+
+.ntwrk{
+    font-size: 20px;
+}
+
+.bzns-frm{
+    height: 600px;
+    width: 400px;
+    background: #30BAA8;
+    
+}
+
+.bzns-frm-txt{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 25px;
+    color: azure;    
+}
+
+.butn{
+    margin-top: 8%;
+    height: 50%;
+    width: 90%;
+    color: azure;
+    font-size: 50px;
+    padding: 5%;
+    background: #30BAA8;
+    border: 1px;
+}
+
+.butn:hover{
+    background: #30BAA8;
+    background: -moz-linear-gradient(90deg, rgb(48, 186, 168) 0%, rgb(4, 132, 133) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(48, 186, 168) 0%, rgb(4, 132, 133) 100%);
+    background: -o-linear-gradient(90deg, rgb(48, 186, 168) 0%, rgb(4, 132, 133) 100%);
+    background: -ms-linear-gradient(90deg, rgb(48, 186, 168) 0%, rgb(4, 132, 133) 100%);
+    background: linear-gradient(180deg, rgb(48, 186, 168) 0%, rgb(4, 132, 133) 100%);
+}
+
+.mdl{
+    width: 95%;
+    height: auto;
+}
+
+.ghst-btn {
+    width: 45%;
+    padding: 5%;
+    background: azure;
+    font-size: 50px;
+    border: 4px solid #000;
+    color: #000;
+}
+
+.ghst-btn:hover {
+    background: #30BAA8;
+    color: azure;
+}
+
+.ntwrk-img{
+    margin-top: 20px;
+}
+
+.spdmtr{
+    width: 200px;
+    height: 200px;
+}
+.spdmtr:hover{
+    background: #30BAA8;
+}
+
+.spdmtrtxt{
+    font-size: 30px;
+}
+
+.trf{
+    margin: 5%;
+}
+
+.trfinpt{
+    width: 25%;
+}
+
+.redir{
+    font-size: 45px;
+}
+
+.redirlnk{
+    font-size: 20px;
+}
+
+.cnct{
+    width: 90%;
+}
+
+.oplata{
+    font-size: 24px;
+    
+}
+
+.opmg:hover{
+    background: #30BAA8;
+    border-radius: 40px;
+}
+
+.trmnlbtn{
+    background: url(/images/term2.png) no-repeat;
+    height: 300px;
+    width: 300px;
+    border: 0px;
+    opacity: 0.5;
+}
+
+
+.trmnlbtn:hover{
+    opacity: 1;
+}
+
+.bnkmg{
+    height: 300px;
+    width: 300px;
+    
+}
+
+.bnkmg:hover{
+    border-radius: 20px;
+    background: #30BAA8; 
+}
+
+.trmnlmd{
+    font-size: 20px;
+    padding: 1%;
+}
+
+.gorm{
+    font-size: 25px;
+    color: #333333;
+}
+
+.gormpnl{
+    background: #F5F5F5;
+}
+
+.gormtxt{
+    background: azure;
+}
+
+.wrng{
+    font-size: 25px;
+    background: #30BAA8;
+    border-radius: 10px;
+    color: azure;
+}
+
+.foot{
+    background: #F8F8F8;
+}
+
+.foottxt{
+    font-size: 12px;
+    color: #30BAA8;
+}

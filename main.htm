@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Фон сайта с эффектом параллакса на jQuery | Демонстрациядля сайта RUDEBOX</title>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.plaxmove.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<br><br>
+<body>
+
+<style>
+html,body{ height:100%; overflow:hidden;}
+div{position:absolute}
+.layer1{background:url(layer1.png); background-size: cover; width:1347px;height:100%;}
+</style>
+
+
+<div class="layer1"></div>
+<script type="text/javascript">
+$(function(){
+	$('.layer1').plaxmove({ratioH:0.15,ratioV:0.15})
+});
+</script>
+
+</div></div></body></html>

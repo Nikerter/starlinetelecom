@@ -1,0 +1,30 @@
+.offer{    
+    background: #30BAA8;
+    margin-top: 10%;
+    border-radius: 40px;
+    opacity: 0.9;
+}
+
+.kar{
+    width: 30%;
+    height: 30%;
+    padding-top: 5%;
+    opacity: 1;
+}
+
+.txt{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: azure;
+    font-size: 60px;
+}
+
+.butn{
+    width: 50%;
+    height: 10%;
+    padding-bottom: 5%;
+}
+
+a:hover{
+    text-decoration: none;
+}
